@@ -78,8 +78,7 @@ function finish() {
 function addToList() {
   let u = `city-${guessed.length}`
   let v = `score-${guessed.length}`
-  document.getElementById(u).innerHTML = "noah 123"
-  // document.getElementById(u).innerHTML = guessed[guessed.length - 1].name
+  document.getElementById(u).innerHTML = guessed[guessed.length - 1].name
   document.getElementById(v).innerHTML = guessed[guessed.length - 1].score.toString()
   if (guessed.length === 10) {
     finish()
