@@ -43,6 +43,7 @@ function randomLocation() {
   const city = cities[parseInt(random(0, cities.length))]
   const shortName = city.name.substring(0, city.name.indexOf(","));
   candidate = ({ name: shortName.toLowerCase(), score: null })
+  cities = cities.filter(c => c.name !== city.name)
   return loc(city.lat, city.lng, 0.025)
 }
 
