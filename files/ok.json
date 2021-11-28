@@ -1,0 +1,82 @@
+[
+    {
+        "name": "London, UK",
+        "lat": 51.5081289,
+        "lng": -0.128005
+    },
+    {
+        "name": "Leeds, West Yorkshire, UK",
+        "lat": 53.801279,
+        "lng": -1.548567
+    },
+    {
+        "name": "Exeter, UK",
+        "lat": 50.7184,
+        "lng": -3.5339
+    },
+    {
+        "name": "Bradford, West Yorkshire, UK",
+        "lat": 53.795984,
+        "lng": -1.759398
+    },    
+    {
+        "name": "Edinburgh, Midlothian, UK",
+        "lat": 55.953252,
+        "lng": -3.188267
+    },
+    {
+        "name": "Huddersfield, UK",
+        "lat": 53.5933432,
+        "lng": -1.8009509
+    },
+    {
+        "name": "Belfast, UK",
+        "lat": 54.59744329999999,
+        "lng": -5.9340683
+    },
+    {
+        "name": "Shipley, UK",
+        "lat": 53.8359,
+        "lng": -1.7770
+    },
+    {
+        "name": "Plymouth, UK",
+        "lat": 50.3719165,
+        "lng": -4.1360198
+    },
+    {
+        "name": "Aberdeen, UK",
+        "lat": 57.149717,
+        "lng": -2.094278
+    },
+    {
+        "name": "Halifax, UK",
+        "lat": 53.7420418,
+        "lng": -1.995269
+    },
+    {
+        "name": "York, UK",
+        "lat": 53.9622908,
+        "lng": -1.0818995
+    },
+    {
+        "name": "Bath, UK",
+        "lat": 51.36362930000001,
+        "lng": -2.4399987
+    },
+    {
+        "name": "Bournemouth, UK",
+        "lat": 50.719164,
+        "lng": -1.880769
+    },
+    {
+        "name": "Brighton, Brighton and Hove, UK",
+        "lat": 50.842941,
+        "lng": -0.131312
+    },
+    {
+        "name": "Blackpool, UK",
+        "lat": 53.8212725,
+        "lng": -3.0554531
+    }
+]
