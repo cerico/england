@@ -1,0 +1,357 @@
+[
+    {
+        "name": "London, UK",
+        "lat": 51.5081289,
+        "lng": -0.128005
+    },
+    {
+        "name": "Birmingham, West Midlands, UK",
+        "lat": 52.48624299999999,
+        "lng": -1.890401
+    },
+    {
+        "name": "Leeds, West Yorkshire, UK",
+        "lat": 53.801279,
+        "lng": -1.548567
+    },
+    {
+        "name": "Glasgow, UK",
+        "lat": 55.864237,
+        "lng": -4.251806
+    },
+    {
+        "name": "Sheffield, South Yorkshire, UK",
+        "lat": 53.38112899999999,
+        "lng": -1.470085
+    },
+    {
+        "name": "Bradford, West Yorkshire, UK",
+        "lat": 53.795984,
+        "lng": -1.759398
+    },    
+    {
+        "name": "Liverpool, Merseyside, UK",
+        "lat": 53.41154,
+        "lng": -2.990116
+    },
+    {
+        "name": "Edinburgh, Midlothian, UK",
+        "lat": 55.953252,
+        "lng": -3.188267
+    },
+    {
+        "name": "Manchester, UK",
+        "lat": 53.479251,
+        "lng": -2.247926
+    },
+    {
+        "name": "Skopje, Macedonia",
+        "lat": 42.003812,
+        "lng": 21.452246
+    },
+    {
+        "name": "Magnitogorsk, Chelyabinskaya oblast, Russia",
+        "lat": 53.4166667,
+        "lng": 58.9666667
+    },
+    {
+        "name": "Kaliningrad, Kaliningrad Oblast, Russia",
+        "lat": 54.7,
+        "lng": 20.5
+    },
+    {
+        "name": "Tallinn, Estonia",
+        "lat": 59.4426896,
+        "lng": 24.7531972
+    },
+    {
+        "name": "Szczecin, Poland",
+        "lat": 53.4285438,
+        "lng": 14.5528116
+    },
+    {
+        "name": "Lyon, France",
+        "lat": 45.764043,
+        "lng": 4.835659
+    },
+    {
+        "name": "Kaunas, Lithuania",
+        "lat": 54.8968721,
+        "lng": 23.8924264
+    },
+    {
+        "name": "Bristol, UK",
+        "lat": 51.454513,
+        "lng": -2.58791
+    },
+    {
+        "name": "Huddersfield, UK",
+        "lat": 53.5933432,
+        "lng": -1.8009509
+    },
+    {
+        "name": "Birkenhead, Merseyside, UK",
+        "lat": 53.37797399999999,
+        "lng": -3.108818
+    },
+    {
+        "name": "Wakefield, West Yorkshire, UK",
+        "lat": 53.683298,
+        "lng": -1.505924
+    },
+    {
+        "name": "Cardiff, UK",
+        "lat": 51.48158100000001,
+        "lng": -3.17909
+    },
+    {
+        "name": "Dudley, West Midlands, UK",
+        "lat": 52.512255,
+        "lng": -2.081112
+    },
+    {
+        "name": "Wigan, UK",
+        "lat": 53.54544,
+        "lng": -2.637474
+    },
+    {
+        "name": "Coventry, West Midlands, UK",
+        "lat": 52.406822,
+        "lng": -1.519693
+    },
+    {
+        "name": "Belfast, UK",
+        "lat": 54.59744329999999,
+        "lng": -5.9340683
+    },
+    {
+        "name": "Leicester, UK",
+        "lat": 52.6368778,
+        "lng": -1.1397592
+    },
+    {
+        "name": "Sunderland, Tyne and Wear, UK",
+        "lat": 54.906869,
+        "lng": -1.383801
+    },
+    {
+        "name": "Sandwell, Smethwick, West Midlands B66, UK",
+        "lat": 52.504335,
+        "lng": -1.972875
+    },
+    {
+        "name": "Doncaster, South Yorkshire, UK",
+        "lat": 53.52282,
+        "lng": -1.128462
+    },
+    {
+        "name": "Stockport, UK",
+        "lat": 53.406754,
+        "lng": -2.158843
+    },
+    {
+        "name": "Nottingham, UK",
+        "lat": 52.95477,
+        "lng": -1.158086
+    },
+    {
+        "name": "Newcastle, Tyne and Wear, UK",
+        "lat": 54.978252,
+        "lng": -1.61778
+    },
+    {
+        "name": "Hull, Kingston Upon Hull, UK",
+        "lat": 53.7456709,
+        "lng": -0.3367413
+    },
+    {
+        "name": "Bolton, UK",
+        "lat": 53.584441,
+        "lng": -2.428619
+    },
+    {
+        "name": "Walsall, West Midlands, UK",
+        "lat": 52.586214,
+        "lng": -1.982919
+    },
+    {
+        "name": "Plymouth, UK",
+        "lat": 50.3719165,
+        "lng": -4.1360198
+    },
+    {
+        "name": "Rotherham, South Yorkshire, UK",
+        "lat": 53.4326035,
+        "lng": -1.3635009
+    },
+    {
+        "name": "Stoke, UK",
+        "lat": 53.002668,
+        "lng": -2.179404
+    },
+    {
+        "name": "Wolverhampton, West Midlands, UK",
+        "lat": 52.586973,
+        "lng": -2.12882
+    },
+    {
+        "name": "Derby, UK",
+        "lat": 52.9225301,
+        "lng": -1.4746186
+    },
+    {
+        "name": "Swansea, UK",
+        "lat": 51.62144,
+        "lng": -3.943645999999999
+    },
+    {
+        "name": "Salford, UK",
+        "lat": 53.488465,
+        "lng": -2.2982969
+    },
+    {
+        "name": "Barnsley, South Yorkshire, UK",
+        "lat": 53.55263,
+        "lng": -1.479726
+    },
+    {
+        "name": "Oldham, UK",
+        "lat": 53.5445459,
+        "lng": -2.118732
+    },
+    {
+        "name": "Aberdeen, UK",
+        "lat": 57.149717,
+        "lng": -2.094278
+    },
+    {
+        "name": "Southampton, UK",
+        "lat": 50.90970040000001,
+        "lng": -1.4043509
+    },
+    {
+        "name": "Rochdale, UK",
+        "lat": 53.614086,
+        "lng": -2.161814
+    },
+    {
+        "name": "Solihull, West Midlands, UK",
+        "lat": 52.411811,
+        "lng": -1.77761
+    },
+    {
+        "name": "Gateshead, Tyne and Wear, UK",
+        "lat": 54.95268,
+        "lng": -1.603411
+    },
+    {
+        "name": "Milton Keynes, UK",
+        "lat": 52.038601,
+        "lng": -0.757072
+    },
+    {
+        "name": "Halifax, UK",
+        "lat": 53.7420418,
+        "lng": -1.995269
+    },
+    {
+        "name": "Northampton, UK",
+        "lat": 52.240477,
+        "lng": -0.9026560000000001
+    },
+    {
+        "name": "Portsmouth, UK",
+        "lat": 50.8166667,
+        "lng": -1.0833333
+    },
+    {
+        "name": "Warrington, UK",
+        "lat": 53.395794,
+        "lng": -2.571767
+    },
+    {
+        "name": "Bury, UK",
+        "lat": 53.595024,
+        "lng": -2.297151
+    },
+    {
+        "name": "Luton, UK",
+        "lat": 51.8786707,
+        "lng": -0.4200255
+    },
+    {
+        "name": "St Helens, Merseyside, UK",
+        "lat": 53.456307,
+        "lng": -2.737095
+    },
+    {
+        "name": "York, UK",
+        "lat": 53.9622908,
+        "lng": -1.0818995
+    },
+    {
+        "name": "Southend, UK",
+        "lat": 51.5459269,
+        "lng": 0.7077123
+    },
+    {
+        "name": "Bath, UK",
+        "lat": 51.36362930000001,
+        "lng": -2.4399987
+    },
+    {
+        "name": "Wycombe, Swanley, Greater London BR8, UK",
+        "lat": 51.40132149999999,
+        "lng": 0.1477863
+    },
+    {
+        "name": "Basildon, Essex, UK",
+        "lat": 51.57608399999999,
+        "lng": 0.488736
+    },
+    {
+        "name": "Bournemouth, UK",
+        "lat": 50.719164,
+        "lng": -1.880769
+    },
+    {
+        "name": "Peterborough, UK",
+        "lat": 52.56949849999999,
+        "lng": -0.2405299
+    },
+    {
+        "name": "Chelmsford, Essex, UK",
+        "lat": 51.734964,
+        "lng": 0.4761969999999999
+    },
+    {
+        "name": "Brighton, Brighton and Hove, UK",
+        "lat": 50.842941,
+        "lng": -0.131312
+    },
+    {
+        "name": "Aylesbury, Buckinghamshire, UK",
+        "lat": 51.815606,
+        "lng": -0.8084
+    },
+    {
+        "name": "Colchester, Essex, UK",
+        "lat": 51.895927,
+        "lng": 0.8918740000000001
+    },
+    {
+        "name": "Macclesfield, Cheshire East, UK",
+        "lat": 53.258663,
+        "lng": -2.119287
+    },
+    {
+        "name": "Blackpool, UK",
+        "lat": 53.8212725,
+        "lng": -3.0554531
+    },
+    {
+        "name": "Dundee, UK",
+        "lat": 56.462018,
+        "lng": -2.970721
+    },
+]

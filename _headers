@@ -1,0 +1,6 @@
+/*
+    Content-Security-Policy: form-action 'self'; base-uri 'self'; frame-ancestors none; default-src 'none'; script-src 'unsafe-inline' 'self' https://d3js.org https://*.googleapis.com; img-src 'self' https://*.ggpht.com https://*.googleapis.com https://*.gstatic.com data:; style-src 'self' https://*.googleapis.com 'unsafe-inline'; font-src 'self' https://*.gstatic.com data:; frame-src 'self'; connect-src 'self' https://apis.google.com; object-src 'none';
+    X-Frame-Options: SAMEORIGIN always
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

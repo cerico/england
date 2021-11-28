@@ -1,0 +1,147 @@
+$black:#191919;
+$red:#db5439;
+$red-light-1x:rgba(220, 84, 57, 0.5);
+$red-light-2x:rgba(220, 84, 57, 0.25);
+$white:#f5f3e8;
+$yellow:#eebe6d;
+$blue: #7fafc5;
+$paper: #f3f7e9;
+$green: #516548;
+
+$font-body: 'Raleway';
+
+body {
+  font: 100% $font-body;
+  background: $red;
+}
+
+li {
+  list-style: none;
+  font-size: 24px;
+  display: flex;
+}
+
+span {
+  padding: 8px;
+  text-transform: capitalize;
+}
+
+#app {
+  height: 100%;
+}
+
+.left {
+  height: 80%;
+  width: 75%;
+  display: inline-block;
+}
+
+.right {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 20%;
+}
+
+.below {
+  width: 75%;
+  padding-top: 16px;
+}
+
+#pano {
+  height: 100%;
+  width: 100%
+}
+
+#submit {
+  position: relative;
+  float: right;
+  box-sizing: inherit;
+  outline: none;
+  border: 2px solid;
+  border-radius: 0;
+  padding: .375rem 10.84px;
+  height: 45px;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 24px;
+  line-height: inherit;
+  appearance: none;
+  top: 0;
+  right: 0;
+  width: 108.4px;
+  opacity: 1;
+  transition: opacity .1s;
+  color: #010f13;
+  background: #57dba4;
+  border-color: #322F7C;
+  cursor: pointer;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: raleway;
+  background: rgb(249, 247, 238);
+  padding: 16px;
+}
+
+.gm-iv-address {
+  display: none;
+}
+
+.li-num, .li-city, .li-score {
+  flex: 0 0 auto;
+  padding: 0px 5px;
+  padding: 8px;
+  text-transform: capitalize;
+  display: inline;
+}
+
+.li-num {
+  width: 9%;
+}
+
+.li-city {
+  width: 78%;
+}
+
+.li-num {
+  width: 13%;
+}
+
+#countdown, #guess {
+  float:left
+}
+
+#countdown {
+  margin-left: 24px;
+  font-size: 44px;
+}
+
+#guess {
+  outline: none;
+  border: 2px solid;
+  border-radius: 0;
+  padding: .375rem 10.84px;
+  height: 45px;
+  font-family: inherit;
+  font-size: 36px;
+  line-height: inherit;
+  appearance: none;
+  background-color: inherit;
+  width: 240px;
+}
+
+span {
+  font-size: 18px
+}
+
+#well-done {
+  font-size: 42px;
+  text-align: center;
+  width: 80%;
+}

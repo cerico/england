@@ -1,0 +1,46 @@
+---
+- name: Deploy our Sergey app
+  hosts: webserver
+  become: true
+  become_user: "deploy"
+
+  vars:
+    url: "england.cityguessr.com"
+    app_root_path: "/var/www/html/{{ url }}"
+    email: "garethrobertlee@gmail.com"
+
+  tasks:
+    - name: Setup app folder
+      file:
+        state: directory
+        path: "/var/www/html/england.cityguessr.com"
+
+    - name: Make shared directories
+      copy:
+        src:  "{{ playbook_dir }}/../public/index.html"
+        dest: "/var/www/html/england.cityguessr.com/index.html"
+
+    - name: Make shared directories
+      copy:
+        src:  "{{ playbook_dir }}/../public/files"
+        dest: "/var/www/html/england.cityguessr.com/"
+
+    - name: Make shared directories
+      copy:
+        src:  "{{ playbook_dir }}/../public/favicon.ico"
+        dest: "/var/www/html/england.cityguessr.com/favicon.ico"
+
+    - name: nginx
+      template:
+        src: nginx.conf.j2
+        dest: "/etc/nginx/conf.d/{{ url }}.conf"
+
+    - name: stop nginx
+      become: true
+      become_user: root
+      shell: "nginx -s stop"
+
+    - name: certify
+      become: true
+      become_user: root
+      shell: "certbot --nginx -n --agree-tos --email {{ email }} -d {{ url }}"

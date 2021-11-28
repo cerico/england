@@ -1,0 +1,31 @@
+<body>
+  <div id="app">
+    <div class="left">
+      <div id="pano"></div>
+      </div>
+      <div class="right">
+    <ul id="cities">
+      <li><div class="li-num">1.</div><div class="li-city" id="city-1"></div><div class="li-score" id="score-1"></div></li>
+      <li><div class="li-num">2.</div><div class="li-city" id="city-2"></div><div class="li-score" id="score-2"></div></li>
+      <li><div class="li-num">3.</div><div class="li-city" id="city-3"></div><div class="li-score" id="score-3"></div></li>
+      <li><div class="li-num">4.</div><div class="li-city" id="city-4"></div><div class="li-score" id="score-4"></div></li>
+      <li><div class="li-num">5.</div><div class="li-city" id="city-5"></div><div class="li-score" id="score-5"></div></li>
+      <li><div class="li-num">6.</div><div class="li-city" id="city-6"></div><div class="li-score" id="score-6"></div></li>
+      <li><div class="li-num">7.</div><div class="li-city" id="city-7"></div><div class="li-score" id="score-7"></div></li>
+      <li><div class="li-num">8.</div><div class="li-city" id="city-8"></div><div class="li-score" id="score-8"></div></li>
+      <li><div class="li-num">9.</div><div class="li-city" id="city-9"></div><div class="li-score" id="score-9"></div></li>
+      <li><div class="li-num">10.</div><div class="li-city" id="city-10"></div><div class="li-score" id="score-10"></div></li>
+      <li><div class="li-num">Total</div><div class="li-city"></div><div class="li-score" id="total"></div></li>
+    </ul>
+  </div>
+  <div id="below" class="below">
+    <div id="city"></div>
+    <div id="answer"></div>
+    <input onkeyup="guessTheCity(event)" id="guess" />
+    <button id="submit" onclick="next()">Next</button>
+    <div id="countdown"></div>
+    <div id="dogs"></div>
+  </div>
+  <div id="well-done" class="well-done"></div>
+  </div>
+</body>

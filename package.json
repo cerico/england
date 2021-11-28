@@ -1,0 +1,23 @@
+{
+  "name": "cityguessr.com",
+  "version": "1.0.0",
+  "description": "cityguessr.com",
+  "main": "server.js",
+  "dependencies": {
+    "css-mqpacker": "^7.0.0",
+    "sass": "^1.26.10",
+    "sergey": "0.0.13"
+  },
+  "scripts": {
+    "serge": "sergey --watch --port=26150 --exclude=.vscode,src",
+    "build": "npm run build:css && sergey --exclude=.vscode,src",
+    "netlify": "netlify deploy --prod -d public",
+    "sass": "sass --no-source-map src/style.scss files/style.css",
+    "sass-watch": "sass --watch --no-source-map src/style.scss files/style.css",
+    "mqpacker": "mqpacker -s ./files/style.css ./files/style.css",
+    "build:css": "npm run sass && npm run mqpacker",
+    "dev": "npm run serge & npm run sass-watch"
+  },
+  "author": "gareth",
+  "license": "ISC"
+}
