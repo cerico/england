@@ -91,7 +91,7 @@ function guessTheCity(e){
   const answer = document.getElementById("guess").value.toLowerCase()
   let score
   if (answer === guessed[guessed.length - 1 ].name) {
-    score = timer > 45 ? 100 : parseInt(timer / 1.35)
+    score = timer > 60 ? 100 : parseInt(timer / 0.60)
     timer = '';
     guessed[guessed.length - 1 ].score = score
     document.getElementById("countdown").innerHTML = ""
@@ -127,7 +127,7 @@ function startTimer() {
 }
 
 function resetTimer() {
-  timer = 60
+  timer = 75
 }
 
 function next(){
