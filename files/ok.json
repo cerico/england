@@ -78,5 +78,55 @@
         "name": "Blackpool, UK",
         "lat": 53.8212725,
         "lng": -3.0554531
+    },
+    {
+        "name": "Birmingham, West Midlands, UK",
+        "lat": 52.48624299999999,
+        "lng": -1.890401
+    },
+    {
+        "name": "Sheffield, South Yorkshire, UK",
+        "lat": 53.38112899999999,
+        "lng": -1.470085
+    },
+    {
+        "name": "Bristol, UK",
+        "lat": 51.454513,
+        "lng": -2.58791
+    },
+    {
+        "name": "Wakefield, West Yorkshire, UK",
+        "lat": 53.683298,
+        "lng": -1.505924
+    },
+    {
+        "name": "Cardiff, UK",
+        "lat": 51.48158100000001,
+        "lng": -3.17909
+    },
+    {
+        "name": "Leicester, UK",
+        "lat": 52.6368778,
+        "lng": -1.1397592
+    },
+    {
+        "name": "Newcastle, Tyne and Wear, UK",
+        "lat": 54.978252,
+        "lng": -1.61778
+    },
+    {
+        "name": "Hull, Kingston Upon Hull, UK",
+        "lat": 53.7456709,
+        "lng": -0.3367413
+    },
+    {
+        "name": "Swansea, UK",
+        "lat": 51.62144,
+        "lng": -3.943645999999999
+    },
+    {
+        "name": "York, UK",
+        "lat": 53.9622908,
+        "lng": -1.0818995
     }
 ]
