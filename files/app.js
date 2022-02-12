@@ -8,7 +8,7 @@ let cities;
 let guessed = [];
 
 function initialize() {
-  d3.json("/files/subset.json").then(function (data) {
+  d3.json(`/files/subset.json?rand=${Math.random()}`).then(function (data) {
     cities = data
     makeMap()
   })
