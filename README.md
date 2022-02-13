@@ -1,6 +1,6 @@
 # england.cityguessr.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/adb34bef-e77f-494c-8914-221c2d3a2f76/deploy-status)](https://app.netlify.com/sites/typology/deploys)
+[![Uptime](https://img.shields.io/uptimerobot/ratio/7/m790627933-d9bbf863a46ad9e420c44cd9)](https://img.shields.io/uptimerobot/ratio/7/m790627933-d9bbf863a46ad9e420c44cd9)
 [![Mozilla Observatory](https://img.shields.io/mozilla-observatory/grade/england.cityguessr.com)](https://observatory.mozilla.org/analyze/england.cityguessr.com)
 
 ![screenshot](https://screenshots.io37.ch/england.cityguessr.com.jpg)
