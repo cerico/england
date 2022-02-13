@@ -21,7 +21,7 @@ npm run start # run in production mode
 
 ## Deployment
 
-Auto deploys to via Netlify's Continuous Deployment github integration.
+Auto deploys to Contabo VPS via rsync in github action
 
 Or to push manually
 
@@ -37,7 +37,7 @@ npm run deploy # deploy to netlify
 
 ### Hosted at
 
-- Netlify
+[https://contabo.com](https://contabo.com/en/)
 
 
 
