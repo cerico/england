@@ -1,39 +1,42 @@
-<h1 align="center">Welcome to  👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
-  </a>
-</p>
+# Growth and Population in Bulgaria, Portugal, Sweden post 2009
 
-> cityguessr.com
-
-### 🏠 [Homepage](england.cityguessr.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/adb34bef-e77f-494c-8914-221c2d3a2f76/deploy-status)](https://app.netlify.com/sites/typology/deploys)
+[![Mozilla Observatory](https://img.shields.io/mozilla-observatory/grade/england.cityguessr.com)](https://observatory.mozilla.org/analyze/england.cityguessr.com)
 
 
-## Install
+## Setup
 
 ```sh
-yarn install
+npm install
 ```
 
 ## Usage
 
 ```sh
-yarn run serge
+npm run dev # run in development mode
+npm run build # build for production
+npm run start # run in production mode
 ```
 
-## Build for production
+## Deployment
+
+Auto deploys to via Netlify's Continuous Deployment github integration.
+
+Or to push manually
 
 ```sh
-yarn run build
-cd public
-python -m SimpleHTTPServer 26150
+npm run deploy # deploy to netlify
 ```
 
-## Show your support
 
-Give a ⭐️ if this project helped you!
+### Built with
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+- Sergey
+- Google Streetview API
+
+### Hosted at
+
+- Netlify
+
+
+
