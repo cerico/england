@@ -37,7 +37,7 @@ npm run deploy # deploy to netlify
 
 ### Hosted at
 
-[https://contabo.com](https://contabo.com/en/)
+[Contabo](https://contabo.com/en/)
 
 
 
