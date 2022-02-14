@@ -2,8 +2,8 @@
 
 [![Uptime](https://img.shields.io/uptimerobot/ratio/7/m790627933-d9bbf863a46ad9e420c44cd9)](https://img.shields.io/uptimerobot/ratio/7/m790627933-d9bbf863a46ad9e420c44cd9)
 [![Mozilla Observatory](https://img.shields.io/mozilla-observatory/grade/england.cityguessr.com)](https://observatory.mozilla.org/analyze/england.cityguessr.com)
-[![Lighthouse Accessibility](https://raw.githubusercontent.com/cerico/england/main/lighthouse/lighthouse_accessibility.svg)](https://raw.githubusercontent.com/cerico/england/main/lighthouse/lighthouse_accessibility.svg)
-[![Lighthouse Performance](https://raw.githubusercontent.com/cerico/england/main/lighthouse/lighthouse_performance.svg)](https://raw.githubusercontent.com/cerico/england/main/lighthouse/lighthouse_performance.svg)
+[![Lighthouse Accessibility](https://lighthouses.io37.ch/england.cityguessr.com/lighthouse_accessibility.svg)](https://lighthouses.io37.ch/england.cityguessr.com.html)
+[![Lighthouse Performance](https://lighthouses.io37.ch/england.cityguessr.com/lighthouse_performance.svg)](https://lighthouses.io37.ch/england.cityguessr.com.html)
 
 ![screenshot](https://screenshots.io37.ch/england.cityguessr.com.jpg)
 
