@@ -168,5 +168,10 @@
         "name": "Southend, UK",
         "lat": 51.5459269,
         "lng": 0.7077123
+    },
+    {
+        "name": "Ilfracombe, UK",
+        "lat": "51.2052",
+        "lng": "4.1268"
     }
 ]
