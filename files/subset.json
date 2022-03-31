@@ -172,11 +172,16 @@
     {
         "name": "Ilfracombe, UK",
         "lat": "51.2052",
-        "lng": "4.1268"
+        "lng": "-4.1268"
     },
     {
         "name": "Whitehaven, UK",
         "lat": "54.5497",
-        "lng": "3.5892"
+        "lng": "-3.5892"
+    },
+    {
+        "name": "Canterbury, UK",
+        "lat": "51.2802",
+        "lng": "1.0789"
     }
 ]
