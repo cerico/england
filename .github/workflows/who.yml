@@ -12,7 +12,7 @@ jobs:
         env:
           NUMBER: ${{ github.event.issue.number }}
           BLAH: ${{ github.actor }}
-          COMMENT: ${{ github.event.issue.comment }}
+          COMMENT: ${{ github.event.comment }}
 
   issue_commented:
     # This job only runs for issue comments
