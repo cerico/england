@@ -183,5 +183,10 @@
         "name": "Canterbury, UK",
         "lat": "51.2802",
         "lng": "1.0789"
+    },
+    {
+        "name": "Whitehaven, UK",
+        "lat": "54.5497",
+        "lng": "-3.5892"
     }
 ]
