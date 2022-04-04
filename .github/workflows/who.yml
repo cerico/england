@@ -8,10 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo A comment on PR $BLAH
+          echo A comment on PR $BLAH and $TITLE and then $BODY
         env:
           NUMBER: ${{ github.event.issue.number }}
           BLAH: ${{ github.actor }}
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
 
   issue_commented:
     # This job only runs for issue comments
