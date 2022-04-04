@@ -11,7 +11,7 @@ jobs:
           echo A comment on PR $BLAH
         env:
           NUMBER: ${{ github.event.issue.number }}
-          BLAH: ${{ github.event }}
+          BLAH: ${{ github.event.actor.login }}
 
   issue_commented:
     # This job only runs for issue comments
