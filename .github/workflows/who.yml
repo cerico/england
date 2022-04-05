@@ -7,6 +7,29 @@ jobs:
     if: (github.event.comment.body == 'yay')
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      
+      - name: Node install
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+          registry-url: 'https://registry.npmjs.org'
+      
+      - name: Install JS Packages
+        run: yarn
+        
+      - name: Build
+        run: yarn build
+      
+      - name: Rsync
+        uses: burnett01/rsync-deployments@4.1
+        with:
+          switches: -a
+          path: public/
+          remote_path: "/var/www/html/test.england.cityguessr.com"
+          remote_host: "test.england.cityguessr.com"
+          remote_user: deploy
+          remote_key: ${{ secrets.DEPLOY_KEY }}
       - run: |
           echo A comment on PR $BLAH and $COMMENT
         env:
