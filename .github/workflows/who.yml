@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo A comment on issue $NUMBER
+          echo A comment on the issue $NUMBER
         env:
-          NUMBER: ${{ github.event.pull_request.head.ref }}
+          NUMBER: ${{ github.event.pull_request.head }}
       # - uses: actions/checkout@v2
       
       # - name: Node install
