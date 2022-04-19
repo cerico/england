@@ -7,11 +7,9 @@ jobs:
     if: (github.event.comment.body == 'yay')
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          echo A comment on the issue $NUMBER and $HM
+      - run: echo A comment on the issue $NUMBER
         env:
-          NUMBER: ${{ github.event }}
-          HM: "Yesy"
+          NUMBER: 'qeird'
       # - uses: actions/checkout@v2
       
       # - name: Node install
