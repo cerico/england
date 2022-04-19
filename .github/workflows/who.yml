@@ -9,7 +9,7 @@ jobs:
     steps:
       - run: echo A comment on the issue $NUMBER
         env:
-          NUMBER: ${{ github.head_ref }}
+          NUMBER: ${{ github.ref_name }}
       # - uses: actions/checkout@v2
       
       # - name: Node install
