@@ -9,7 +9,7 @@ jobs:
     steps:
       - run: echo A comment on the issue $NUMBER
         env:
-          NUMBER: ${{ github.event }}
+          NUMBER: ${{ github.event.pull_request }}
       # - uses: actions/checkout@v2
       
       # - name: Node install
