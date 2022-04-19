@@ -8,9 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo A comment on the issue $NUMBER
+          echo A comment on the issue $NUMBER and $HM
         env:
-          NUMBER: ${{ github.event.ref }}
+          NUMBER: ${{ github.event }}
+          HM: "Yesy"
       # - uses: actions/checkout@v2
       
       # - name: Node install
