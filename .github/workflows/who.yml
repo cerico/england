@@ -9,9 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: $BRANCH
-        env:
-          BRANCH: ${{ github.sha }}
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: set user
         run: |
