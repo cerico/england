@@ -7,36 +7,42 @@ jobs:
     if: (github.event.comment.body == 'yay')
     runs-on: ubuntu-latest
     steps:
-      - run: echo A comment on the issue $NUMBER
+      - uses: actions/checkout@v2
+        with:
+          ref: $BRANCH
         env:
-          NUMBER: ${{ github.sha }}
-      # - uses: actions/checkout@v2
+          BRANCH: ${{ github.sha }}
+
+      - name: set user
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com' 
       
-      # - name: Node install
-      #   uses: actions/setup-node@v2
-      #   with:
-      #     node-version: '14.x'
-      #     registry-url: 'https://registry.npmjs.org'
+      - name: Node install
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+          registry-url: 'https://registry.npmjs.org'
       
-      # - name: Install JS Packages
-      #   run: yarn
+      - name: Install JS Packages
+        run: yarn
         
-      # - name: Build
-      #   run: yarn build
+      - name: Build
+        run: yarn build
       
-      # - name: Rsync
-      #   uses: burnett01/rsync-deployments@4.1
-      #   with:
-      #     switches: -a
-      #     path: public/
-      #     remote_path: "/var/www/html/$BLAH.england.cityguessr.com"
-      #     remote_host: "$BLAH.england.cityguessr.com"
-      #     remote_user: deploy
-      #     remote_key: ${{ secrets.DEPLOY_KEY }}
-      #   env:
-      #     NUMBER: ${{ github.event.issue.number }}
-      #     BLAH: ${{ github.actor }}
-      #     COMMENT: ${{ github.event.comment.body }}
+      - name: Rsync
+        uses: burnett01/rsync-deployments@4.1
+        with:
+          switches: -a
+          path: public/
+          remote_path: "/var/www/html/$BLAH.england.cityguessr.com"
+          remote_host: "$BLAH.england.cityguessr.com"
+          remote_user: deploy
+          remote_key: ${{ secrets.DEPLOY_KEY }}
+        env:
+          NUMBER: ${{ github.event.issue.number }}
+          BLAH: ${{ github.actor }}
+          COMMENT: ${{ github.event.comment.body }}
 
   issue_commented:
     # This job only runs for issue comments
