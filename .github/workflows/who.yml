@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: 'get-branch'
-        run: echo ::set-output name=branch::$(gh pr view $PR_NO --json headRefName --jq '.headRefName')
+        run: echo ::set-output name=branch::$(gh pr view $PR_NO --repo $REPO --json headRefName --jq '.headRefName')
         env:
           REPO: ${{ github.repository }}
           PR_NO: ${{ github.event.issue.number }}
@@ -44,6 +44,19 @@ jobs:
           NUMBER: ${{ github.event.issue.number }}
           BLAH: ${{ github.actor }}
           COMMENT: ${{ github.event.comment.body }}
+
+      - name: Add comment to PR
+        env:
+          URL: ${{ github.event.issue.comments_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER: ${{ github.actor }}
+        run: |
+          curl \
+            -X POST \
+            $URL \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            --data '{ "body": "$USER.storybook.carlosfair.com" }'
 
   issue_commented:
     # This job only runs for issue comments
