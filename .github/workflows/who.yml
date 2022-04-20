@@ -57,7 +57,7 @@ jobs:
             $URL \
             -H "Content-Type: application/json" \
             -H "Authorization: token $GITHUB_TOKEN" \
-            --data '{ "body": "check it out at '"$USER".storybook.carlosfair.com'"}'
+            --data '{ "body": "check it out at https://'"$USER".storybook.carlosfair.com'"}'
 
   issue_commented:
     # This job only runs for issue comments
