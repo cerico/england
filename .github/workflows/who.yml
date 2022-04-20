@@ -7,10 +7,17 @@ jobs:
     if: (github.event.comment.body == 'yay')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - id: 'get-branch'
+        run: echo ::set-output name=branch::$(gh pr view $PR_NO --repo $REPO --json headRefName --jq '.headRefName')
+        env:
+          REPO: ${{ github.repository }}
+          PR_NO: ${{ github.event.issue.number }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
-          fetch-depth: 0
-          ref: ${{ github.event.pull_request.head.sha }} 
+          ref: ${{ steps.get-branch.outputs.branch }}
 
       - name: set user
         run: |
