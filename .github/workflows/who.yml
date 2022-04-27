@@ -42,14 +42,14 @@ jobs:
           remote_key: ${{ secrets.DEPLOY_KEY }}
         env:
           NUMBER: ${{ github.event.issue.number }}
-          BLAH: ${{ github.actor }}
+          BLAH: ${{ github.actor.lowercase }}
           COMMENT: ${{ github.event.comment.body }}
 
       - name: Add comment to PR
         env:
           URL: ${{ github.event.issue.comments_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USER: ${{ github.actor }}
+          USER: ${{ github.actor.lowercase }}
           STORYBOOK_URL: "${{ github.actor }}.storybook.carlosfair.com"
         run: |
           curl \
